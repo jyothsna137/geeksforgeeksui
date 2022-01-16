@@ -1,5 +1,4 @@
 import React from "react";
-import { InferableComponentEnhancerWithProps } from "react-redux";
 interface IProps {
     init: number;
 }

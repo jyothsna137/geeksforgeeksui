@@ -1,11 +1,10 @@
+import { Grid } from "@material-ui/core";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { UsersReducer } from "./UsersReducer";
-import {IStatussizedUser} from "./UsersReducer";
-import { AppState } from "./AppState";
-import {Grid} from "@material-ui/core";
-import { IUser } from "./UsersSlice";
 import "./App.css";
+import { AppState } from "./AppState";
+import { IStatussizedUser } from "./UsersReducer";
+import { IUser } from "./UsersSlice";
 
 export default function ReduxBasics(){
 

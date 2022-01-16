@@ -1,5 +1,5 @@
-import {Card, CardContent, CardMedia, makeStyles, Theme, Typography} from "@material-ui/core";
-import { IHotel } from "./HotelsSlice"
+import { Card, CardContent, CardMedia, makeStyles, Theme, Typography } from "@material-ui/core";
+import { IHotel } from "./HotelsSlice";
 
 const useStyles = makeStyles<Theme, {}>({
     container: {

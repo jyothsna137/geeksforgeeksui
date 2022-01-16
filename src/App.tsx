@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import { Redirect, Route } from 'react-router';
 import './App.css';
 import ComponentA from "./ComponentA";
 import ComponentB from "./ComponentB";
 import ComponentC from "./ComponentC";
-import { Redirect, Route } from 'react-router';
-import MainClass from "./MainClass";
-import UsersClass from "./UsersClass";
-import Hooks from "./Hooks";
-import helloWorld from './HelloWorld';
-import ReduxBasics from './ReduxBasics';
-import MaterialUI from './MaterialUI';
 import componentDidMount from './ComponentDidMount';
 import componentDidUpdate from './ComponentDidUpdate';
-import SliceUI from './SliceUI';
-import HotelsUI from './HotelsUI';
+import Hooks from "./Hooks";
 import HooksUI from './HooksUI';
+import HotelsUI from './HotelsUI';
 import Login from './Login';
-import SignUp from './SignUp';
+import MainClass from "./MainClass";
+import MaterialUI from './MaterialUI';
 import Profile from './Profile';
+import ReduxBasics from './ReduxBasics';
+import SignUp from './SignUp';
+import SliceUI from './SliceUI';
+import UsersClass from "./UsersClass";
 
 function App() {
   return (/*all routes shold be inside switch*/

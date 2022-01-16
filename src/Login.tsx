@@ -1,19 +1,6 @@
-import { useForm } from "react-hook-form";
+import firebase from "firebase";
 import { useHistory } from "react-router";
-import { CircularProgress, 
-    TextField, 
-    Typography, 
-    makeStyles, 
-    Theme, 
-    Button, 
-    Fab, 
-    Card, 
-    CardMedia, 
-    CardContent, 
-    AppBar} from "@material-ui/core";
-import FormButtons from "./FormButtons";
 import Authentication, { IAuthentication } from "./Authentication";
-import firebase from "firebase"
 
 export default function Login(){
     const history = useHistory();

@@ -1,16 +1,7 @@
-import { useForm } from "react-hook-form";
+import {
+    Fab, makeStyles
+} from "@material-ui/core";
 import { useHistory } from "react-router";
-import { CircularProgress, 
-    TextField, 
-    Typography, 
-    makeStyles, 
-    Theme, 
-    Button, 
-    Fab, 
-    Card, 
-    CardMedia, 
-    CardContent, 
-    AppBar} from "@material-ui/core";
 interface ILogin{
     email: string,
     password: string;

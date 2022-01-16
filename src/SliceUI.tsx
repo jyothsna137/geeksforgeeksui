@@ -1,9 +1,9 @@
+import { Grid } from "@material-ui/core";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { AppState } from "./AppState";
-import {Grid} from "@material-ui/core";
-import { IUser, completed, started } from "./UsersSlice";
 import "./App.css";
+import { AppState } from "./AppState";
+import { completed, IUser, started } from "./UsersSlice";
 
 export default function SliceUI(){
 

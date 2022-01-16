@@ -1,4 +1,3 @@
-import { ImageSearchOutlined } from "@material-ui/icons";
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 export interface IHotel{

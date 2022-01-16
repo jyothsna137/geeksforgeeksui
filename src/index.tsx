@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import {BrowserRouter} from 'react-router-dom'; //All the children of router will have browser capabilities.
 import { Provider } from 'react-redux';
-import { configure } from '@testing-library/react';
+import { BrowserRouter } from 'react-router-dom'; //All the children of router will have browser capabilities.
+import App from './App';
 import { configureStore } from './AppState';
 import "./firebaseSetup";
-import UserProvider from "./UserProvider"
+import './index.css';
+import reportWebVitals from './reportWebVitals';
+import UserProvider from "./UserProvider";
 
 ReactDOM.render(
   <React.StrictMode>
