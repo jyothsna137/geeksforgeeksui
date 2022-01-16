@@ -2,9 +2,6 @@ import { createContext, useRef, useState } from "react";
 import Context from "./Context";
 import FuncProps from "./FuncProps";
 
-interface ILogin{
-    token:string;
-}{/**Create this or pass string directly */}
 export const tokenContext = createContext<string>("");
 
 export default function Hooks(){

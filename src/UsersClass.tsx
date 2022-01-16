@@ -76,7 +76,7 @@ export default class UsersClass extends React.Component<{},IState>{
         return(
             //<div className="grid-tem" key={user.id}>
             <Grid item key={user.id} xs={4}>
-                <img src={user.avatar} />
+                <img alt="geeksforgeeks" src={user.avatar} />
                 <div>{user.email}</div>
                 <div>{`${user.first_name}${user.last_name}`}</div>
             </Grid>

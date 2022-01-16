@@ -12,7 +12,7 @@ const myCallBack = (data: IForm) => {
 
 export default function HooksUI() {
     //object destructuring since only specific objects are required
-    const {register, reset, handleSubmit, formState:{errors}} = useForm<IForm>()
+    const {register, handleSubmit, formState:{errors}} = useForm<IForm>()
     //binding with the input attributes of the form
     //reset funcitonality
     //form submit

@@ -20,7 +20,7 @@ export default function SliceUI(){
         //insert query
         dispatch(started());
         api();
-    },[])
+    },[dispatch])
     
     return(
             <Grid>
@@ -32,7 +32,7 @@ export default function SliceUI(){
         return(
             //<div className="grid-tem" key={user.id}>
             <Grid item key={user.id} xs={2}>
-                <img src={user.avatar} />
+                <img alt="geeksforgeeks" src={user.avatar} />
                 <div>{user.email}</div>
                 <div>{`${user.first_name}${user.last_name}`}</div>
             </Grid>

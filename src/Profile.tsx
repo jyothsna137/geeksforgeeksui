@@ -39,7 +39,7 @@ export default function Profile(){
         <div className={style.container}>
             <div className={style.innerContainer}>
         <Typography variant="h3">
-        {"Welcome to the Profile Page"}
+        {"Welcome to the Profile Page!!!!!"}
         </Typography> 
         {context?.email && (<Typography variant="h4">
         {context?.email}{" "} </Typography>)} 

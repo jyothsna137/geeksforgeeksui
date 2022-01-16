@@ -21,8 +21,8 @@ export default function ReduxBasics(){
         //insert query
         dispatch({type: "started"});
         api();
-    },[])
-    if(statusizedUser.loading == true){
+    },[dispatch])
+    if(statusizedUser.loading === true){
         return <div>it is loading</div>
     }
     else {
@@ -37,7 +37,7 @@ export default function ReduxBasics(){
         return(
             //<div className="grid-tem" key={user.id}>
             <Grid item key={user.id} xs={2}>
-                <img src={user.avatar} />
+                <img alt="geeksforgeeks" src={user.avatar} />
                 <div>{user.email}</div>
                 <div>{`${user.first_name}${user.last_name}`}</div>
             </Grid>

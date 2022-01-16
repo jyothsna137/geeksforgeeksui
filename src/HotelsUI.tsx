@@ -43,9 +43,6 @@ margin:"10px 0",
  }
 });
 
-interface IResponse{
-    restaurant: IHotel
-}
 //component to insert data inside websitereducer and read it
 export default function HotelsUI(){
     const [searchString, setSearchString] = useState("")

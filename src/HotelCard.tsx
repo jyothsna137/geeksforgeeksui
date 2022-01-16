@@ -9,7 +9,7 @@ const useStyles = makeStyles<Theme, {}>({
 export default function HotelCard(props: IHotel){
     const style = useStyles();
     return(
-        <Card>
+        <Card className={style.container}>
             <CardMedia
             component="img"
             image={props.featured_image}

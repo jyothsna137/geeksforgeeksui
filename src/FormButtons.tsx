@@ -2,10 +2,6 @@ import {
     Fab, makeStyles
 } from "@material-ui/core";
 import { useHistory } from "react-router";
-interface ILogin{
-    email: string,
-    password: string;
-}
 
 const useStyles = makeStyles({
     outerDiv:{
